@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    background-color: cyan;
+}
+main{
+    text-align: center;
+    margin-top: 100px;
+    right: 30%;
+    font-family: 'Righteous', cursive;
+    color: magenta;
+}
+.button{
+    background-color: black;
+    border: none;
+    color: magenta;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.button:hover {background-color: yellow}
+
+.button:active {
+  background-color: yellow;
+  box-shadow: 0 5px orange;
+  transform: translateY(4px);
+}
+.insta{
+    width: 100px;
+    height: 100px;
+}
